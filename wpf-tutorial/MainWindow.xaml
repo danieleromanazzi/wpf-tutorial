@@ -28,5 +28,9 @@
             <Button Click="OpenWindow">Open Window</Button>
         </StackPanel>
         <Separator/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>WPF versus WinForms</TextBlock>
+            <Button Click="OpenButtons">Open Buttons</Button>
+        </StackPanel>
     </StackPanel>
 </Window>
