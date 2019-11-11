@@ -1,0 +1,16 @@
+﻿<Window x:Class="wpf_challenge_containers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_challenge_containers"
+        mc:Ignorable="d"
+        Title="wpf-challenge-containers" Height="450" Width="800">
+    <StackPanel>
+        <local:Section Background="Gray" Text="Header" DockPanel.Dock="Top"/>
+        <local:Section Background="DarkGray" Text="TopNav" DockPanel.Dock="Top"/>
+        <local:Section Background="Gray" Text="Footer" DockPanel.Dock="Bottom"/>
+        <local:Section Background="DarkGray" Text="LeftNav" DockPanel.Dock="Left"/>
+        <local:Section Background="LightGray" Text="Content"/>
+    </StackPanel>
+</Window>
