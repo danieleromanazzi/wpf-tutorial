@@ -1,0 +1,234 @@
+WPF it's not that simple
+
+Iniziamo! 9:00
+La vostra esperienza con WPF
+Gli strumenti di sviluppo
+ - Visual Studio Community
+ - Microsoft Blend
+
+WPF 9:15
+WPF vs WINFORMS
+Vantaggi di WPF
+Vantaggi di WinForms
+/* DARE TO BE DIFFERENT */
+
+XAML 09:30
+Cos'è XAML?
+UI Framework layering
+Code-behind vs XAML
+/* LIFE RUN ON CODE */
+Eventi in XAML
+
+L'applicazione 10:00
+La Window
+App.xaml
+?Gestione delle eccezioni in WPF
+
+/* CHALLENGE: Hello World */ 10min
+
+Controlli base 10:30
+TextBlock - Inline formatting
+Label
+TextBox
+Button
+CheckBox
+RadioButton
+PasswordBox
+Image
+
+/* LIFE RUN ON CODE */
+
+Le risorse 11:00
+Introduzione
+StaticResource e DynamicResource
+Dictionary e MergeDictionary
+
+/* CHALLENGE:  */
+
+I controlli contenitori 11:30
+Introduzione ai controlli panels di WPF
+Border
+Canvas
+WrapPanel
+StackPanel
+DockPanel
+Grid
+ - Rows & columns
+ - Units
+ - Spanning
+ - GridSplitter
+ - Using the Grid: A contact form
+
+/* CHALLENGE: Containers */
+
+
+UserControls & CustomControls 14:00
+Introduzione
+usare uno UserControl
+
+/* CHALLENGE: My first UserControl */ 30min
+
+Dependency property 15:00
+
+Attached property 15:30
+
+Gli Stili  16:00
+Introduzione
+Usare gli styli
+Trigger, DataTrigger ed EventTrigger
+MultiTrigger e MultiDataTrigger
+Trigger animations
+
+/* CHALLENGE: gli stili */ 
+
+
+Data binding 09:00
+Introduzione
+Hello, bound world!
+Il DataContext
+Data binding nel Code-behind
+UpdateSourceTrigger property
+Responding to changes
+Value conversion with IValueConverter
+The StringFormat property
+Debugging data bindings
+
+/* CHALLENGE : Data Binding */
+
+Using Design-time Databinding 10:30
+While Developing a WPF User Control
+
+MVVM 11:00
+Un breve cenno
+Perchè
+InotifyPropertyChanged
+ViewModelBase => https://www.fabiocozzolino.eu/my-viewmodel-base-class-implementation/
+
+
+I Commands 11:30
+Introduzione
+Usare i commands
+Implementare un Command 
+
+/* CHALLENGE : Command */
+
+
+
+Le liste 14:00
+ItemsControl
+ListBox 
+ComboBox 
+ListView
+DataGrid
+
+/* CHALLENGE : ListView */
+
+
+
+
+
+
+
+
+Using Design-time Databinding While Developing a WPF User Control
+
+
+
+
+The ListView control
+Introduction to the ListView control
+A simple ListView example
+ListView, data binding and ItemTemplate
+ListView with a GridView
+How-to: ListView with left aligned column names
+ListView grouping
+ListView sorting
+How-to: ListView with column sorting
+ListView filtering
+
+
+The DataGrid control
+The DataGrid control
+DataGrid columns
+DataGrid with row details
+
+
+Misc.
+The DispatcherTimer
+Multi-threading with the BackgroundWorker
+Cancelling the BackgroundWorker
+Lazy loading
+
+
+Altri controlli
+Slider
+ProgressBar
+WebBrowser
+WindowsFormsHost
+GroupBox
+Calendar
+DatePicker
+Expander
+
+
+
+
+
+Control concepts
+Control ToolTips
+WPF text rendering
+Tab Order
+Access Keys
+
+
+
+Dialogs
+The MessageBox 
+The OpenFileDialog
+The SaveFileDialog
+The other dialogs
+Creating a custom input dialog
+
+Common interface controls
+The WPF Menu control
+The WPF ContextMenu
+The WPF ToolBar control
+The WPF StatusBar control
+The Ribbon control
+
+Rich Text controls
+Introduction to WPF Rich Text controls
+The FlowDocumentScrollViewer control
+The FlowDocumentPageViewer control
+The FlowDocumentReader control
+Creating a FlowDocument from Code-behind
+Advanced FlowDocument content
+The RichTextBox control
+How-to: Creating a Rich Text Editor
+
+
+
+The TabControl
+Using the WPF TabControl
+WPF TabControl: Tab positions
+WPF TabControl: Styling the TabItems
+
+
+
+The TreeView control
+TreeView introduction
+A simple TreeView example
+TreeView, data binding and multiple templates
+TreeView - Selection/Expansion state
+Lazy loading TreeView items
+
+
+
+
+Audio & Video
+Playing audio
+Playing video
+How-to: Creating a complete Audio/Video player
+Speech synthesis (making WPF talk)
+Speech recognition (making WPF listen)
+
