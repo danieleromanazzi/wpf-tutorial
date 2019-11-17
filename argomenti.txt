@@ -1,6 +1,7 @@
 WPF it's not that simple
 
 Iniziamo! 9:00
+Iniziamo - Cosa vi aspettate da questo corso
 La vostra esperienza con WPF
 Gli strumenti di sviluppo
  - Visual Studio Community
@@ -19,22 +20,25 @@ App.xaml
 
 XAML 09:30
 Cos'è XAML?
-UI Framework layering
+                UI Framework layering
 Code-behind vs XAML
 /* LIFE RUN ON CODE */
 Eventi in XAML
 
 /* CHALLENGE: Hello World */ 15min
 
+/* Coffee break */
+
 Controlli base 10:30
 TextBlock - Inline formatting
 Label
 TextBox
+PasswordBox
+Image
 Button
 CheckBox
 RadioButton
-PasswordBox
-Image
+
 
 /* LIFE RUN ON CODE */
 
@@ -43,9 +47,10 @@ Introduzione
 StaticResource e DynamicResource
 Dictionary e MergeDictionary
 
+/* LIFE RUN ON CODE */
            /* CHALLENGE:  */
 
-I controlli contenitori 11:30
+I Panels 11:30
 Introduzione ai controlli panels di WPF
 Border
 Canvas
@@ -134,7 +139,9 @@ DataGrid
 
 
 Using Design-time Databinding While Developing a WPF User Control
-
+Tooltips dei controlli
+Rendering del testo in WPF
+Immagini Vettoriali
 
 
 
