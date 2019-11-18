@@ -57,6 +57,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controls\ButtonWindow.xaml.cs">
+      <DependentUpon>ButtonWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CheckBoxWindow.xaml.cs">
+      <DependentUpon>CheckBoxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageWindow.xaml.cs">
+      <DependentUpon>ImageWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabelWindow.xaml.cs">
+      <DependentUpon>LabelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PasswordBoxWindow.xaml.cs">
+      <DependentUpon>PasswordBoxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RadioButtonWindow.xaml.cs">
+      <DependentUpon>RadioButtonWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TextBlockWindow.xaml.cs">
+      <DependentUpon>TextBlockWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TextBoxWindow.xaml.cs">
+      <DependentUpon>TextBoxWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WPF-versus-WinForms\Win32Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +93,38 @@
     <Compile Include="XAML-versus-CodeBehind\Buttons.xaml.cs">
       <DependentUpon>Buttons.xaml</DependentUpon>
     </Compile>
+    <Page Include="Controls\ButtonWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\CheckBoxWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ImageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\LabelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PasswordBoxWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\RadioButtonWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TextBlockWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TextBoxWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

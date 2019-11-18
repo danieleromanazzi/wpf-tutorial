@@ -7,9 +7,7 @@
         mc:Ignorable="d"
         Title="Window" Height="450" Width="800">
     <StackPanel>
-        <TextBlock Margin="10" TextWrapping="Wrap">
-			TextBlock with <Bold>bold</Bold>, <Italic>italic</Italic> and <Underline>underlined</Underline> text.
-        </TextBlock>
+
         <TextBox Width="100" AcceptsReturn="True" TextWrapping="Wrap" SpellCheck.IsEnabled="True" Language="it-it" />
 
     </StackPanel>

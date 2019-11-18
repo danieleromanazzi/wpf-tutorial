@@ -50,7 +50,7 @@ Dictionary e MergeDictionary
 /* LIFE RUN ON CODE */
            /* CHALLENGE:  */
 
-I Panels 11:30
+I controlli Panels 11:30
 Introduzione ai controlli panels di WPF
 Border
 Canvas
@@ -84,7 +84,7 @@ Trigger, DataTrigger ed EventTrigger
 MultiTrigger e MultiDataTrigger
 Trigger animations
 
-/* CHALLENGE: gli stili */ 
+/* CHALLENGE: My first COOL UserControl */ 30min
 
 
 Data binding 09:00
