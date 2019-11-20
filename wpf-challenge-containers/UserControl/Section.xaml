@@ -15,6 +15,9 @@
         </Style>
     </UserControl.Resources>
     <Border>
-        <TextBlock Text="{Binding Text, ElementName=section}" />
+        <StackPanel>
+            <Rectangle x:Name="icon" Width="10" Height="10" Fill="Red" />
+            <TextBlock Text="{Binding Text, ElementName=section}" />
+        </StackPanel>
     </Border>
 </UserControl>

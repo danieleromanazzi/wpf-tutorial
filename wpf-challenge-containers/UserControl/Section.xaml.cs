@@ -38,5 +38,23 @@ namespace wpf_challenge_containers
             DependencyProperty.Register("Text", typeof(string), typeof(Section), new PropertyMetadata(string.Empty));
 
 
+
+        public bool OnlyText
+        {
+            get { return (bool)GetValue(OnlyTextProperty); }
+            set { SetValue(OnlyTextProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for OnlyText.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty OnlyTextProperty =
+            DependencyProperty.Register("OnlyText", typeof(bool), typeof(Section), new PropertyMetadata(true, new PropertyChangedCallback(OnOnlyText)));
+
+        public static void OnOnlyText(DependencyObject dp, DependencyPropertyChangedEventArgs e)
+        {
+            var control = dp as Section;
+            var value = bool.Parse(e.NewValue.ToString());
+            control.icon.Visibility = value ? Visibility.Collapsed : Visibility.Visible;
+        }
+
     }
 }
