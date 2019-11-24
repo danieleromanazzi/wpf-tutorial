@@ -81,6 +81,7 @@
     <Compile Include="Controls\TextBoxWindow.xaml.cs">
       <DependentUpon>TextBoxWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\TestViewModel.cs" />
     <Compile Include="WPF-versus-WinForms\Win32Form.cs">
       <SubType>Form</SubType>
     </Compile>
