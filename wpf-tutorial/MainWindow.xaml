@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_tutorial"
+        xmlns:attached="clr-namespace:wpf_tutorial.attached"
         mc:Ignorable="d"
         Title="wpf-tutorial" Height="450" Width="800">
     <Window.Resources>
@@ -32,5 +33,7 @@
             <TextBlock>WPF versus WinForms</TextBlock>
             <Button Click="OpenButtons">Open Buttons</Button>
         </StackPanel>
+
+        <TextBox attached:SelectOnEntryText.SelectOnEntry="False" />
     </StackPanel>
 </Window>

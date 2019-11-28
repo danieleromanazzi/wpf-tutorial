@@ -57,6 +57,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="attached\SelectOnEntryText.cs" />
     <Compile Include="Controls\ButtonWindow.xaml.cs">
       <DependentUpon>ButtonWindow.xaml</DependentUpon>
     </Compile>
