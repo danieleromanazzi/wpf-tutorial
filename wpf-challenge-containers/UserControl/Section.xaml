@@ -8,16 +8,17 @@
     <UserControl.Resources>
         <Style TargetType="Border">
             <Setter Property="Padding" Value="15"/>
+
         </Style>
         <Style TargetType="TextBlock">
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="28" />
         </Style>
     </UserControl.Resources>
     <Border>
-        <StackPanel>
-            <Rectangle x:Name="icon" Width="10" Height="10" Fill="Red" />
+
             <TextBlock Text="{Binding Text, ElementName=section}" />
-        </StackPanel>
+
     </Border>
 </UserControl>

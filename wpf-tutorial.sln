@@ -9,6 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-containers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-simplecontrols", "wpf-challenge-simplecontrols\wpf-challenge-simplecontrols.csproj", "{FB0BE787-626E-4C51-B449-7D55F2823C39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-inotifypropertychanged", "wpf-tutorial-inotifypropertychanged\wpf-tutorial-inotifypropertychanged.csproj", "{061BF8A5-0C99-4F74-A921-23D674807A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-observablecollection", "wpf-tutorial-observablecollection\wpf-tutorial-observablecollection.csproj", "{0D5399DC-A837-4CC7-80C6-ADD3966565C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf-tutorial-viewmodels", "wpf-tutorial-viewmodels\wpf-tutorial-viewmodels.csproj", "{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-WF-vs-WPF", "wpf-tutorial-WF-vs-WPF\wpf-tutorial-WF-vs-WPF.csproj", "{CF7A1649-4915-4E4A-B055-CA9A0C36B031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-XAML-vs-CodeBehind", "wpf-tutorial-XAML-vs-CodeBehind\wpf-tutorial-XAML-vs-CodeBehind.csproj", "{D1D20485-35AC-488E-9F93-37BDF20111D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-attachedproperty", "wpf-tutorial-attachedproperty\wpf-tutorial-attachedproperty.csproj", "{4FDB6C7D-FA46-4605-BADD-759267A2E961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-simplecontrols", "wpf-tutorial-simplecontrols\wpf-tutorial-simplecontrols.csproj", "{1F73995C-B79B-48FB-BD8F-DEDCDCE6F377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +41,34 @@ Global
 		{FB0BE787-626E-4C51-B449-7D55F2823C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB0BE787-626E-4C51-B449-7D55F2823C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB0BE787-626E-4C51-B449-7D55F2823C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061BF8A5-0C99-4F74-A921-23D674807A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061BF8A5-0C99-4F74-A921-23D674807A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061BF8A5-0C99-4F74-A921-23D674807A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061BF8A5-0C99-4F74-A921-23D674807A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5399DC-A837-4CC7-80C6-ADD3966565C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5399DC-A837-4CC7-80C6-ADD3966565C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5399DC-A837-4CC7-80C6-ADD3966565C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5399DC-A837-4CC7-80C6-ADD3966565C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7A1649-4915-4E4A-B055-CA9A0C36B031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7A1649-4915-4E4A-B055-CA9A0C36B031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7A1649-4915-4E4A-B055-CA9A0C36B031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7A1649-4915-4E4A-B055-CA9A0C36B031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D20485-35AC-488E-9F93-37BDF20111D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D20485-35AC-488E-9F93-37BDF20111D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D20485-35AC-488E-9F93-37BDF20111D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D20485-35AC-488E-9F93-37BDF20111D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDB6C7D-FA46-4605-BADD-759267A2E961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDB6C7D-FA46-4605-BADD-759267A2E961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDB6C7D-FA46-4605-BADD-759267A2E961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDB6C7D-FA46-4605-BADD-759267A2E961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F73995C-B79B-48FB-BD8F-DEDCDCE6F377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F73995C-B79B-48FB-BD8F-DEDCDCE6F377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F73995C-B79B-48FB-BD8F-DEDCDCE6F377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F73995C-B79B-48FB-BD8F-DEDCDCE6F377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

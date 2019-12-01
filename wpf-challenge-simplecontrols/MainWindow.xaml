@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-
+        <StackPanel.InputBindings>
+            <MouseBinding  Gesture="LeftClick" Command="{Binding Click}"/>
+        </StackPanel.InputBindings>
     </StackPanel>
 </Window>

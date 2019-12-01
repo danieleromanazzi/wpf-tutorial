@@ -1,0 +1,43 @@
+﻿<Window x:Class="wpf_tutorial_XAML_vs_CodeBehind.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_tutorial_XAML_vs_CodeBehind"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight" Width="250">
+    <StackPanel x:Name="container">
+        <Button Content="I'm a button"></Button>
+
+        <Button Content="I'm a button"/>
+
+        <Button>I'm a button</Button>
+
+        <Button FontWeight="Bold" Content="I'm a button" />
+
+        <Button>
+            <Button.FontWeight>Bold</Button.FontWeight>
+            <Button.Content>I'm a button</Button.Content>
+        </Button>
+
+        <Button>
+            <Button.FontWeight>Bold</Button.FontWeight>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Blue">Blue</TextBlock>
+                    <TextBlock Foreground="Red">Red</TextBlock>
+                    <TextBlock>button</TextBlock>
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+
+        <Button FontWeight="Bold">
+            <WrapPanel>
+                <TextBlock Foreground="Blue">Blue</TextBlock>
+                <TextBlock Foreground="Red">Red</TextBlock>
+                <TextBlock>button</TextBlock>
+            </WrapPanel>
+        </Button>
+
+    </StackPanel>
+</Window>

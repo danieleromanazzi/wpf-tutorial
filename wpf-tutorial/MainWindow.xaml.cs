@@ -12,8 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using wpf_tutorial.WPF_versus_WinForms;
-using wpf_tutorial.XAML_versus_CodeBehind;
 
 namespace wpf_tutorial
 {
@@ -25,24 +23,6 @@ namespace wpf_tutorial
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void OpenForm(object sender, RoutedEventArgs e)
-        {
-            var form = new Win32Form();
-            form.Show();
-        }
-
-        private void OpenWindow(object sender, RoutedEventArgs e)
-        {
-            var window = new WPFWindow();
-            window.Show();
-        }
-
-        private void OpenButtons(object sender, RoutedEventArgs e)
-        {
-            var window = new Buttons();
-            window.Show();
         }
     }
 }

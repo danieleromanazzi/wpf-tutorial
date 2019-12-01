@@ -53,7 +53,7 @@ namespace wpf_challenge_containers
         {
             var control = dp as Section;
             var value = bool.Parse(e.NewValue.ToString());
-            control.icon.Visibility = value ? Visibility.Collapsed : Visibility.Visible;
+            //control.icon.Visibility = value ? Visibility.Collapsed : Visibility.Visible;
         }
 
     }
