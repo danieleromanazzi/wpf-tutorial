@@ -1,0 +1,29 @@
+﻿<Window x:Class="wpf_tutorial_simplecontrols.ImageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_tutorial_simplecontrols"
+        mc:Ignorable="d"
+        Title="ImageWindow" Height="450" Width="800">
+    
+    <UniformGrid>
+        <Grid>
+            <Image x:Name="image1" Source="Resources/wallpaper.png" Stretch="None"/>
+            <TextBlock Text="{Binding Stretch, ElementName=image1}" FontSize="30" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid>
+            <Image x:Name="image2" Source="Resources/wallpaper.png" Stretch="Fill"/>
+            <TextBlock Text="{Binding Stretch, ElementName=image2}" FontSize="30" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid>
+            <Image x:Name="image3" Source="Resources/wallpaper.png" Stretch="Uniform"/>
+            <TextBlock Text="{Binding Stretch, ElementName=image3}" FontSize="30" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid>
+            <Image x:Name="image4" Source="Resources/wallpaper.png" Stretch="UniformToFill"/>
+            <TextBlock Text="{Binding Stretch, ElementName=image4}" FontSize="30" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        </Grid>
+    </UniformGrid>
+        
+ </Window>
