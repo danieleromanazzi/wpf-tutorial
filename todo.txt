@@ -1,0 +1,30 @@
+https://docs.codeframework.io/TouchEx-and-Scroll-Bars
+TODO
+-- realizzare challenge simple controls
+-- realizzare challenge risorse
+-- inserire un immagine nella challenge usercontrol
++ realizzare image tutorial
++ inserire il controllo border
+
+opzionale:
+- inserire i triggers (rendere invisibile la sotto label di descrizione dello usercontrol)
+
++ inotifypropertychanged
++ esempio da visualizzare
++ observable collection
++ easter egg cozz
+
++ slides mvvm: https://www.html.it/pag/62249/mvvm-e-databinding/
++ esempio progetto mvvm (change password, far vedere la logica nel viewmodel)
+  - (opzionale)aggiungere validazione
+
++ slides converters 
+-- challenge converters
+
++ slides commands
+-- challenge command
+
+-- challenge liste
+
+- slides datagrid
+-- challenge datagrid
