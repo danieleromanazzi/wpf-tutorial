@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:wpf_challenge_simplecontrols"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
-    </StackPanel>
+        <StackPanel Grid.ColumnSpan="2" Background="#FF174C79"></StackPanel>
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="1" Background="#FF316998" Height="30"></StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0" Background="#FFE1E1E1"></StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" Background="#FFF6F6F6"></StackPanel>
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="3" Background="#FF154771" Height="30"></StackPanel>
+    </Grid>
 </Window>

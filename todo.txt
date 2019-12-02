@@ -1,4 +1,44 @@
+=== CHALLENGES ===
+DAY 1:
++ Hello World
++ I Contenitori
+- I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
+- Le risorse
+- My first usercontrol
+- My first dynamic usercontrol
+- My first cool usercontrol
+
+DAY 2:
+- Data Binding
+- Converters
+- Command
+- Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
+? Datagrid
+? Validazione
+
+=== TUTORIALS ===
+DAY 1:
++ WF-vs-WPF
++ XAML-vs-CodeBehind
++ SimpleControls
+- Resources
++ UserControl (Live)
++ Dependency Property (live)
++ Attached Property
++ Styles (live)
+
+DAY 2:
++ INotifyPropertyChanged
++ ObservableCollection
++ MVVM (+ DataBinding)
+- Converter
+- Command
+- ItemControls
+
+
+
 https://docs.codeframework.io/TouchEx-and-Scroll-Bars
+
 TODO
 -- realizzare challenge simple controls
 -- realizzare challenge risorse

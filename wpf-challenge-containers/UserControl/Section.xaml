@@ -4,16 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:wpf_challenge_containers"
-             mc:Ignorable="d" x:Name="section">
+             mc:Ignorable="d" x:Name="section" Foreground="Gray">
     <UserControl.Resources>
-        <Style TargetType="Border">
+        <!--<Style TargetType="Border">
             <Setter Property="Padding" Value="15"/>
 
-        </Style>
+        </Style>-->
         <Style TargetType="TextBlock">
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="FontSize" Value="28" />
+            <Setter Property="FontSize" Value="22" />
         </Style>
     </UserControl.Resources>
     <Border>
