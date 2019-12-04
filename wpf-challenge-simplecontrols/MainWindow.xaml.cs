@@ -25,9 +25,5 @@ namespace wpf_challenge_simplecontrols
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Login.Visibility = Visibility.Collapsed;
-        }
     }
 }

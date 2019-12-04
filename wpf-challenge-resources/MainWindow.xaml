@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:wpf_challenge_resources"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel x:Name="Login">
+        <Image Source="/Resources/atom.png"/>
+
+        <StackPanel>
+            <TextBlock>Benvenuto</TextBlock>
+            <PasswordBox></PasswordBox>
+            <Button>LOGIN</Button>
+        </StackPanel>
+    </StackPanel>
 </Window>

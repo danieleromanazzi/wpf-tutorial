@@ -13,15 +13,15 @@ DAY 1:
 + Hello World
 + I Contenitori
 + I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
-- Le risorse
-- My first usercontrol (controllo setting)
++ Le risorse (create un vostro tema alla login)
+- My first usercontrol (controllo setting con togglebutton)
 - My first dynamic usercontrol (dp setting)
 - My first cool usercontrol ()
 
 DAY 2:
-- Data Binding
-- Converters
-- Command
+- Data Binding (Realizzare un ViewModel per il nostro usercontrol)
+- Converters (realizzare un converter che restituisca lo stato On/Off dell'impostazione)
+- Command (Creare un command per il nostro togglebutton)
 - Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
 ? Datagrid
 ? Validazione
@@ -31,7 +31,7 @@ DAY 1:
 + WF-vs-WPF
 + XAML-vs-CodeBehind
 + SimpleControls
-- Resources
++ Resources
 + UserControl (Live)
 + Dependency Property (live)
 + Attached Property
@@ -49,16 +49,15 @@ DAY 2:
 
 https://docs.codeframework.io/TouchEx-and-Scroll-Bars
 
-TODO
--- realizzare challenge simple controls
--- realizzare challenge risorse
--- inserire un immagine nella challenge usercontrol
-+ realizzare image tutorial
-+ inserire il controllo border
-
 opzionale:
 - inserire i triggers (rendere invisibile la sotto label di descrizione dello usercontrol)
 
+TODO
++ realizzare challenge simple controls
++ realizzare challenge risorse
++ inserire un immagine nella challenge usercontrol
++ realizzare image tutorial
++ inserire il controllo border
 + inotifypropertychanged
 + esempio da visualizzare
 + observable collection

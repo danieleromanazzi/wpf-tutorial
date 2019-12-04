@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="wpf-challenge-containers" Height="450" Width="800">
     <StackPanel>
-        <local:Section Background="#FF174C79" Text="Header" Height="80" />
-        <local:Section Background="#FF316998" Text="TopNav" Height="30" />
-        <local:Section Background="#FFF6F6F6" Text="LeftNav" Width="200"/>
-        <local:Section Background="White" Text="Content" />
-        <local:Section Background="#FF154771" Text="Footer" Height="30"/>
+        <local:Section Background="#FF292B34" Text="Header" Height="80" DockPanel.Dock="Top" />
+        <local:Section Background="#E5292B34" Text="TopNav" Height="30" DockPanel.Dock="Top" />
+        <local:Section Background="DarkGray" Text="LeftNav" Width="200" DockPanel.Dock="Left"/>
+        <local:Section Background="LightGray" Text="Content" />
+        <local:Section Background="#FF292B34" Text="Footer" Height="30" DockPanel.Dock="Bottom"/>
     </StackPanel>
 </Window>
