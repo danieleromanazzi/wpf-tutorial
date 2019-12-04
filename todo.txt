@@ -1,12 +1,22 @@
+xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+
+http://www.vbforums.com/showthread.php?626604-ANN-VB6-To-WPF-Project-Migration-Aid-Tool
+https://www.codeproject.com/Articles/18954/Interop-Forms-Toolkit-2-0-Tutorial
+
+-snippet converter
+-snippet attached property with method
+-snippet command
+
 === CHALLENGES ===
 DAY 1:
 + Hello World
 + I Contenitori
-- I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
++ I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
 - Le risorse
-- My first usercontrol
-- My first dynamic usercontrol
-- My first cool usercontrol
+- My first usercontrol (controllo setting)
+- My first dynamic usercontrol (dp setting)
+- My first cool usercontrol ()
 
 DAY 2:
 - Data Binding

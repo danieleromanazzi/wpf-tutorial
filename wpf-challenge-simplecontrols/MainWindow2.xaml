@@ -6,33 +6,6 @@
         xmlns:local="clr-namespace:wpf_challenge_simplecontrols"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Window.Resources>
-        <ResourceDictionary>
-            <Style TargetType="Image">
-                <Setter Property="Width" Value="150" />
-                <Setter Property="Height" Value="150" />
-                <Setter Property="Margin" Value="30" />
-            </Style>
-            <Style TargetType="TextBlock">
-                <Setter Property="Foreground" Value="White"/>
-                <Setter Property="Margin" Value="10" />
-                <Setter Property="HorizontalAlignment" Value="Center" />
-            </Style>
-            <Style TargetType="PasswordBox">
-                <Setter Property="Margin" Value="10" />
-                <Setter Property="HorizontalAlignment" Value="Center" />
-                <Setter Property="Width" Value="200" />
-            </Style>
-            <Style TargetType="Button">
-                <Setter Property="Margin" Value="10" />
-                <Setter Property="HorizontalAlignment" Value="Center" />
-                <Setter Property="Width" Value="200" />
-            </Style>
-            <Style TargetType="StackPanel">
-                <Setter Property="Background" Value="#FF292B34" />
-            </Style>
-        </ResourceDictionary>
-    </Window.Resources>
     <Grid>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -54,6 +27,36 @@
         </Grid>
 
         <StackPanel x:Name="Login">
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Background" Value="#FF292B34" />
+                </Style>
+                    
+            </StackPanel.Style>
+                                
+            <StackPanel.Resources>
+                <Style TargetType="Image">
+                    <Setter Property="Width" Value="150" />
+                    <Setter Property="Height" Value="150" />
+                    <Setter Property="Margin" Value="30" />
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="Margin" Value="10" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                </Style>
+                <Style TargetType="PasswordBox">
+                    <Setter Property="Margin" Value="10" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="Width" Value="200" />
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="10" />
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="Width" Value="200" />
+                </Style>
+            </StackPanel.Resources>
+
             <Image Source="/Resources/atom.png"/>
 
             <StackPanel>
