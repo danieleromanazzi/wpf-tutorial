@@ -114,11 +114,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\wpf-tutorial-viewmodels\wpf-tutorial-viewmodels.csproj">
+    <ProjectReference Include="..\wpf-tutorial-viewmodels\wpf-viewmodel.csproj">
       <Project>{b7bae4be-6f0e-478d-87c5-10b1ac54a6d3}</Project>
-      <Name>wpf-tutorial-viewmodels</Name>
+      <Name>wpf-viewmodel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

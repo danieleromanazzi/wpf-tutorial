@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:control="clr-namespace:wpf_challenge_databinding.View"
         xmlns:local="clr-namespace:wpf_challenge_databinding"
-        mc:Ignorable="d"
+        xmlns:vmbase="clr-namespace:wpf_viewmodel;assembly=wpf-viewmodel"
+        mc:Ignorable="d" 
+        d:DataContext="{d:DesignInstance Type=vmbase:MockUpSettingViewModel, IsDesignTimeCreatable=True}"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid>
@@ -19,15 +22,28 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.ColumnSpan="2" Background="#FF292B34"></StackPanel>
-            <StackPanel Grid.ColumnSpan="2" Grid.Row="1" Background="#E5292B34" Height="30"></StackPanel>
+            <Border Grid.ColumnSpan="2" Background="{DynamicResource Background}">
+                <TextBlock Text="wpf-challenge" Style="{DynamicResource Title}" />
+            </Border>
+            <Border Grid.ColumnSpan="2" Grid.Row="1" Background="#E5292B34" Height="30">
+                <TextBlock Text="it's all in your hand" Style="{StaticResource SubTitle}" />
+            </Border>
             <StackPanel Grid.Row="2" Grid.Column="0" Background="DarkGray"></StackPanel>
-            <StackPanel Grid.Row="2" Grid.Column="1" Background="LightGray"></StackPanel>
-            <StackPanel Grid.ColumnSpan="2" Grid.Row="3" Background="#FF292B34" Height="30"></StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1" Background="LightGray">
+                <control:Setting SettingName="{Binding Name}"
+                                 SettingDescription="{Binding Description}"
+                                 SettingValue="{Binding Value}" />
+            </StackPanel>
+            <Border Grid.ColumnSpan="2" Grid.Row="3" Background="{DynamicResource Background}" Height="30">
+                <Image Source="{DynamicResource Atom}" 
+                       Style="{StaticResource SmallImage}"/>
+            </Border>
         </Grid>
 
-        <StackPanel x:Name="Login" Background="{DynamicResource Background}">
-            <Image Source="{DynamicResource Atom}" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <StackPanel x:Name="Login" d:IsHidden="true" 
+                    Background="{DynamicResource Background}">
+            <Image Source="{DynamicResource Atom}" MouseLeftButtonDown="Image_MouseLeftButtonDown"
+                   Style="{StaticResource LargeImage}"/>
 
             <StackPanel>
                 <TextBlock Style="{DynamicResource WelcomeText}">Benvenuto, Daniele Romanazzi</TextBlock>

@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wpf_tutorial.ViewModels
+namespace wpf_viewmodel
 {
     public class ViewModelBase : INotifyPropertyChanged
     {

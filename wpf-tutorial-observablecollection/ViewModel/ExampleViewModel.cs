@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using wpf_tutorial.ViewModels;
+using wpf_viewmodel;
 
 namespace wpf_tutorial_observableCollection
 {

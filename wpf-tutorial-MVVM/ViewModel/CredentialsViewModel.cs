@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
-using wpf_tutorial.ViewModels;
+using wpf_viewmodel;
 using wpf_tutorial_MVVM.Model;
 
 namespace wpf_tutorial_MVVM.ViewModel

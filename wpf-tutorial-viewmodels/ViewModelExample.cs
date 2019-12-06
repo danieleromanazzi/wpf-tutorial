@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wpf_tutorial.ViewModels
+namespace wpf_viewmodel
 {
     //http://www.fabiocozzolino.eu/my-viewmodel-base-class-implementation/
     public class ViewModelExample : ViewModelBase

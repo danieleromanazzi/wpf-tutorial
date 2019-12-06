@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-inotifypropert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-observablecollection", "wpf-tutorial-observablecollection\wpf-tutorial-observablecollection.csproj", "{0D5399DC-A837-4CC7-80C6-ADD3966565C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf-tutorial-viewmodels", "wpf-tutorial-viewmodels\wpf-tutorial-viewmodels.csproj", "{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf-viewmodel", "wpf-tutorial-viewmodels\wpf-viewmodel.csproj", "{B7BAE4BE-6F0E-478D-87C5-10B1AC54A6D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-WF-vs-WPF", "wpf-tutorial-WF-vs-WPF\wpf-tutorial-WF-vs-WPF.csproj", "{CF7A1649-4915-4E4A-B055-CA9A0C36B031}"
 EndProject
@@ -32,6 +32,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-dependencyproperty", "wpf-challenge-dependencyproperty\wpf-challenge-dependencyproperty.csproj", "{1868E5DD-5D37-44E1-8315-E30B099ED31D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-databinding", "wpf-challenge-databinding\wpf-challenge-databinding.csproj", "{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-converter", "wpf-challenge-converter\wpf-challenge-converter.csproj", "{AF9B95D7-A11A-4331-9DB0-B348324482BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-command", "wpf-challenge-command\wpf-challenge-command.csproj", "{1A831A24-B8FE-4E9A-A4B2-2090E80A0264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-itemscontrol", "wpf-challenge-itemscontrol\wpf-challenge-itemscontrol.csproj", "{EFEA5836-386B-4735-8A92-4872C6F46B0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,18 @@ Global
 		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9B95D7-A11A-4331-9DB0-B348324482BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9B95D7-A11A-4331-9DB0-B348324482BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9B95D7-A11A-4331-9DB0-B348324482BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9B95D7-A11A-4331-9DB0-B348324482BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A831A24-B8FE-4E9A-A4B2-2090E80A0264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A831A24-B8FE-4E9A-A4B2-2090E80A0264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A831A24-B8FE-4E9A-A4B2-2090E80A0264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A831A24-B8FE-4E9A-A4B2-2090E80A0264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

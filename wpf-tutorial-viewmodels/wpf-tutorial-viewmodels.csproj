@@ -1,8 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>wpf_tutorial_viewmodels</RootNamespace>
-  </PropertyGroup>
-
-</Project>
