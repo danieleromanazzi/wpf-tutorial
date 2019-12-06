@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="Background" Color="LightGray"></SolidColorBrush>
+    <BitmapImage x:Key="Atom" UriSource="/wpf-challenge-usercontrol;component/Resources/atom2.png" />
+    <Style TargetType="Image">
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Height" Value="150" />
+        <Setter Property="Margin" Value="30" />
+    </Style>
+    <Style x:Key="WelcomeText" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FF292B34"/>
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <!--<Style TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FF292B34"/>
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style TargetType="PasswordBox">
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Width" Value="200" />
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Width" Value="200" />
+    </Style>-->
+</ResourceDictionary>

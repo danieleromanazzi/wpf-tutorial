@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:wpf_tutorial_attachedproperty.Resources">
+
+    <SolidColorBrush x:Key="Background" Color="#FF292B34"></SolidColorBrush>
+    <BitmapImage x:Key="Atom" UriSource="/wpf-tutorial-attachedproperty;component/Resources/atom.png" />
+    <Style TargetType="Image">
+        <Setter Property="Width" Value="150" />
+        <Setter Property="Height" Value="150" />
+        <Setter Property="Margin" Value="30" />
+    </Style>
+    <Style TargetType="TextBlock">
+        <Setter Property="Foreground" Value="LightGray"/>
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style TargetType="PasswordBox">
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Width" Value="200" />
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Width" Value="200" />
+        <Setter Property="Foreground" Value="#FF292B34"/>
+    </Style>
+</ResourceDictionary>

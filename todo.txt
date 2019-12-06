@@ -14,12 +14,11 @@ DAY 1:
 + I Contenitori
 + I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
 + Le risorse (create un vostro tema alla login)
-- My first usercontrol (controllo setting con togglebutton)
-- My first dynamic usercontrol (dp setting)
-- My first cool usercontrol ()
++ My first usercontrol (controllo setting con togglebutton)
++ My first useful usercontrol (dp setting)
 
 DAY 2:
-- Data Binding (Realizzare un ViewModel per il nostro usercontrol)
+- Data Binding (Realizzare un ViewModel per la nostra applicazione)
 - Converters (realizzare un converter che restituisca lo stato On/Off dell'impostazione)
 - Command (Creare un command per il nostro togglebutton)
 - Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
@@ -32,10 +31,10 @@ DAY 1:
 + XAML-vs-CodeBehind
 + SimpleControls
 + Resources
-+ UserControl (Live)
-+ Dependency Property (live)
++ UserControl (Live code)
++ Dependency Property (live code)
 + Attached Property
-+ Styles (live)
++ Styles (live code)
 
 DAY 2:
 + INotifyPropertyChanged

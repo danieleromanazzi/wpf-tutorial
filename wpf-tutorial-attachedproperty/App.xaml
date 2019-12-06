@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:wpf_tutorial_attachedproperty"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/wpf-tutorial-attachedproperty;component/Resources/DarkTheme.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -6,9 +6,34 @@
         xmlns:local="clr-namespace:wpf_tutorial_attachedproperty"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel Width="200">
-        <TextBlock>Nome:</TextBlock>
-        <TextBox></TextBox>
-        <Button>Click here</Button>
-    </StackPanel>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.ColumnSpan="2" Background="#FF292B34"></StackPanel>
+            <StackPanel Grid.ColumnSpan="2" Grid.Row="1" Background="#E5292B34" Height="30"></StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="0" Background="DarkGray"></StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1" Background="LightGray"></StackPanel>
+            <StackPanel Grid.ColumnSpan="2" Grid.Row="3" Background="#FF292B34" Height="30"></StackPanel>
+        </Grid>
+
+        <StackPanel x:Name="Login" Background="{DynamicResource Background}">
+            <Image Source="{DynamicResource Atom}" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+
+            <StackPanel>
+                <TextBlock>Benvenuto, Daniele Romanazzi</TextBlock>
+                <PasswordBox local:SelectOnEntryText.SelectOnEntry="True"></PasswordBox>
+                <Button Click="Button_Click" >LOGIN</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>

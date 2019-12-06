@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-resources", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-tutorial-resources", "wpf-tutorial-resources\wpf-tutorial-resources.csproj", "{9F849318-1CCD-4441-A2DC-63C8AD704102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-usercontrol", "wpf-challenge-usercontrol\wpf-challenge-usercontrol.csproj", "{9DCEDA23-4311-4B67-AF4D-A9290F9F548E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-dependencyproperty", "wpf-challenge-dependencyproperty\wpf-challenge-dependencyproperty.csproj", "{1868E5DD-5D37-44E1-8315-E30B099ED31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-databinding", "wpf-challenge-databinding\wpf-challenge-databinding.csproj", "{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +87,18 @@ Global
 		{9F849318-1CCD-4441-A2DC-63C8AD704102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F849318-1CCD-4441-A2DC-63C8AD704102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F849318-1CCD-4441-A2DC-63C8AD704102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCEDA23-4311-4B67-AF4D-A9290F9F548E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCEDA23-4311-4B67-AF4D-A9290F9F548E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCEDA23-4311-4B67-AF4D-A9290F9F548E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCEDA23-4311-4B67-AF4D-A9290F9F548E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1868E5DD-5D37-44E1-8315-E30B099ED31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1868E5DD-5D37-44E1-8315-E30B099ED31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1868E5DD-5D37-44E1-8315-E30B099ED31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1868E5DD-5D37-44E1-8315-E30B099ED31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA7539D-6D6F-44D5-9B50-95AA60EC40E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

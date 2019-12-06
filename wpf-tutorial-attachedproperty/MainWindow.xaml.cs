@@ -24,5 +24,29 @@ namespace wpf_tutorial_attachedproperty
         {
             InitializeComponent();
         }
+
+        bool Light = false;
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            string theme = "LightTheme";
+            if (Light)
+            {
+                theme = "DarkTheme";
+                Light = false;
+            }
+            else
+            {
+                Light = true;
+            }
+            ResourceDictionary newRes = new ResourceDictionary();
+            newRes.Source = new Uri($"/wpf-tutorial-attachedproperty;component/Resources/{theme}.xaml", UriKind.RelativeOrAbsolute);
+            this.Resources.MergedDictionaries.Clear();
+            this.Resources.MergedDictionaries.Add(newRes);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Login.Visibility =  Visibility.Collapsed;
+        }
     }
 }
