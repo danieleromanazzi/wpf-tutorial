@@ -48,18 +48,29 @@ DAY 1:
 + XAML-vs-CodeBehind
 + SimpleControls
 + Resources
++ Styles (live code)
 + UserControl (Live code)
 + Dependency Property (live code)
-+ Attached Property
-+ Styles (live code)
++ Attached Property (SelectText on focus)
+
 
 DAY 2:
 + INotifyPropertyChanged
 + ObservableCollection
 + MVVM (+ DataBinding)
-- Converter
+- Converter (live code)
+  BooleanToVisibilityConverter
+  YesNoToBooleanConverter
 - Command
+  Al cambio password aggiornare il valore nel model
+
 - ItemControls
+  Visualizza un elenco dei personaggi con le rispettive immagini
+
+
+- slide Riepilogo degli argomenti affrontati
+- Elenco dettagli tutorial da mostrare
+
 
 
 
