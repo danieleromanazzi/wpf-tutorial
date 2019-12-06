@@ -12,16 +12,33 @@ https://www.codeproject.com/Articles/18954/Interop-Forms-Toolkit-2-0-Tutorial
 DAY 1:
 + Hello World
 + I Contenitori
-+ I controlli base (textblock - textbox - passwordbox - image - button - checkbox - radiobutton)
++ I controlli base 
+  Realizzare una schermata di login come quella nell'esempio.
+(textblock - textbox - passwordbox - image - button)
 + Le risorse (create un vostro tema alla login)
 + My first usercontrol (controllo setting con togglebutton)
 + My first useful usercontrol (dp setting)
 
 DAY 2:
 - Data Binding (Realizzare un ViewModel per la nostra applicazione)
+Realizzare un viemodel per lo usercontrol EnabledSetting che esponga tutte le proprietà necessarie a renderlo riutilizzabile per settings differenti
+
 - Converters (realizzare un converter che restituisca lo stato On/Off dell'impostazione)
+Realizzare una classe converter che mostri lo stato on/off del nostro togglebutton
+
 - Command (Creare un command per il nostro togglebutton)
+Realizzare un command nel nostro viewmodel che piloti il nostro togglebutton 
+Ed al variare di stato mostri una messagebox contenente il nuovo stato.
+Una volta visualizzata la messagebox non dovrà più essere possibile variare lo stato del togglebutton
+
 - Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
+ItemControls
+Realizzare un elenco di settings e popolarlo attraverso il viewmodel. Utilizzare la sorgente dati fornita nel progetto.
+
+ListBox
+Convertire il nostro ItemControls in una ListBox ed utilizzare la proprietà SelectedItem per visualizzare la descrizione del settings selezionato.
+
+
 ? Datagrid
 ? Validazione
 
