@@ -24,9 +24,7 @@ namespace wpf_challenge_itemscontrol.View
         {
             InitializeComponent();
         }
-
-
-
+               
         public string SettingName
         {
             get { return (string)GetValue(SettingNameProperty); }
@@ -60,6 +58,18 @@ namespace wpf_challenge_itemscontrol.View
         public static readonly DependencyProperty SettingValueProperty =
             DependencyProperty.Register("SettingValue", typeof(bool), typeof(Setting), new PropertyMetadata(false));
 
-        
+
+
+        public ICommand SettingApply
+        {           
+            get { return (ICommand)GetValue(SettingApplyProperty); }
+            set { SetValue(SettingApplyProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for SettingApply.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty SettingApplyProperty =
+            DependencyProperty.Register("SettingApply", typeof(ICommand), typeof(Setting), new PropertyMetadata(null));
+
+
     }
 }

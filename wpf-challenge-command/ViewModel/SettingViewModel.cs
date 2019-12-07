@@ -31,6 +31,5 @@ namespace wpf_challenge_command.ViewModel
             get { return GetValue<bool>(); }
             set { SetValue(value); }
         }
-        
     }
 }

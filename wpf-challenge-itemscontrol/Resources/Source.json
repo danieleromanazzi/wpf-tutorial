@@ -2,16 +2,19 @@
   {
     "Name": "Abilita tema scuro",
     "Description": "Questa impostazione applica un tema scuro alla tua applicazione",
-    "Value": "true"
+    "Value": "true",
+    "CommandName": "ChangeTheme"
   },
   {
     "Name": "Conferma operazioni",
     "Description": "Richiede la conferma prima di eseguire qualunque operazione",
-    "Value": "false"
+    "Value": "false",
+    "CommandName": ""
   },
   {
     "Name": "Nascondi descrizioni",
     "Description": "Rende invisibili le descrizioni delle impostazioni",
-    "Value": "false"
+    "Value": "false",
+    "CommandName": ""
   }
 ]

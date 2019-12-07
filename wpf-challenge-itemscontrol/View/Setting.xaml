@@ -53,11 +53,12 @@
 
         <StackPanel Grid.Column="1" Grid.RowSpan="2" Orientation="Horizontal">
 
-            <ToggleButton  Width="50" 
-
-                      Style="{StaticResource MaterialDesignSwitchToggleButton}"
-                      IsChecked="{Binding SettingValue, ElementName=usercontrol}"
-                      HorizontalAlignment="Right" />
+            <ToggleButton Width="50" 
+                          Command="{Binding SettingApply, ElementName=usercontrol}"
+                          Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                          IsChecked="{Binding SettingValue, ElementName=usercontrol}"
+                          HorizontalAlignment="Right" />
+            
             <TextBlock Style="{StaticResource status}"
                        Visibility="{Binding SettingDescription, ElementName=usercontrol, Converter={StaticResource StringEmptyToVisibilityConverter}}"
                        Text="{Binding SettingValue, ElementName=usercontrol, Converter={StaticResource BooleanToOnOffConverter}, FallbackValue=error}"/>

@@ -72,11 +72,11 @@
     </ApplicationDefinition>
     <Compile Include="Command\ChangeThemeCommand.cs" />
     <Compile Include="Command\DelegateCommand.cs" />
+    <Compile Include="Command\CommandFactory.cs" />
     <Compile Include="Converter\BooleanToOnOffConverter.cs" />
     <Compile Include="Converter\StringEmptyToVisibilityConverter.cs" />
     <Compile Include="Model\Setting.cs" />
     <Compile Include="Model\Settings.cs" />
-    <Compile Include="ViewModel\SettingsViewModel.cs" />
     <Compile Include="ViewModel\SettingViewModel.cs" />
     <Compile Include="View\Setting.xaml.cs">
       <DependentUpon>Setting.xaml</DependentUpon>

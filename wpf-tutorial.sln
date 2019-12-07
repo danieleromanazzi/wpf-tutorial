@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-command", "wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-itemscontrol", "wpf-challenge-itemscontrol\wpf-challenge-itemscontrol.csproj", "{EFEA5836-386B-4735-8A92-4872C6F46B0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-challenge-listbox", "wpf-challenge-listbox\wpf-challenge-listbox.csproj", "{CF4ACE38-6C78-4687-BEB4-F35235619F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFEA5836-386B-4735-8A92-4872C6F46B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4ACE38-6C78-4687-BEB4-F35235619F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4ACE38-6C78-4687-BEB4-F35235619F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4ACE38-6C78-4687-BEB4-F35235619F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4ACE38-6C78-4687-BEB4-F35235619F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

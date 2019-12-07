@@ -24,9 +24,10 @@ namespace wpf_challenge_itemscontrol.Command
                 {
                     Light = true;
                 }
-                ResourceDictionary newRes = new ResourceDictionary();
-                newRes.Source = new Uri($"/Resources/{theme}.xaml", UriKind.RelativeOrAbsolute);
-                //ContentControl view = (ContentControl)o;
+                ResourceDictionary newRes = new ResourceDictionary
+                {
+                    Source = new Uri($"/Resources/{theme}.xaml", UriKind.RelativeOrAbsolute)
+                };
                 var view = Application.Current.MainWindow;
                 view.Resources.MergedDictionaries.Clear();
                 view.Resources.MergedDictionaries.Add(newRes);

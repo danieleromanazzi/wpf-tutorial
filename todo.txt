@@ -33,7 +33,7 @@ Realizzare un converter che renda la textblock della description Collapsed quand
 Realizzare un command nel nostro viewmodel che piloti il setting togglebutton 
 Al variare dello stato il togglebutton cambierà il tema applicato.
 
-- Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
++ Le Liste (presenta una lista di elementi ed utilizza l'item selezionato per visualizzare le informazioni in una textbox)
 ItemControls
 Realizzare un elenco di settings e popolarlo attraverso il viewmodel. Utilizzare la sorgente dati fornita nel progetto.
 
@@ -66,8 +66,7 @@ DAY 2:
 - Command
   Al cambio password aggiornare il valore nel model
 
-- ItemControls
-  Visualizza un elenco dei personaggi con le rispettive immagini
++ ItemControls
 
 
 - slide Riepilogo degli argomenti affrontati
@@ -97,12 +96,12 @@ TODO
   - (opzionale)aggiungere validazione
 
 + slides converters 
--- challenge converters
++ challenge converters
 
 + slides commands
--- challenge command
++ challenge command
 
--- challenge liste
++ challenge liste
 
 - slides datagrid
 -- challenge datagrid

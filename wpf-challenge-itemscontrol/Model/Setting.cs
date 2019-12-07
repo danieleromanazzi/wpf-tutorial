@@ -11,5 +11,6 @@ namespace wpf_challenge_itemscontrol.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public bool Value { get; set; }
+        public string CommandName { get; set; }
     }
 }
